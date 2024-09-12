@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+:root {
+    --background-color: #f1f1f1;
+    --hover-color: rgb(102, 40, 245);
+}
+
+
+.card{
+    height: 25rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+.card:hover{
+    height: 25.2rem;
+    width: 15.2rem;
+    transition: 0.1s ease;
+}
+
+.img{
+    margin: 0.2rem 0;
+    height: 60%;
+    width: 98%;
+    background-color: orange;
+    object-fit: cover;
+}
+.img image{
+    height: 100%;
+    width: 100%;
+}
+
+.description{
+    background-color: aqua;
+    height: 40%;
+    width: 100%;
+}
+
+.NamePrice{
+    display: flex;
+    width: 100%;
+    justify-content: space-between ;
+    padding: 0 5px;
+    align-items: center;
+}
+

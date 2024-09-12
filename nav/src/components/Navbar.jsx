@@ -34,7 +34,7 @@ const Navbar = () => {
                             <li><a href="#">logout</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Cart</a></li>
+                    <li className={styles.cart}><a href="#">Cart</a></li>
                 </ul>
             </div>
 

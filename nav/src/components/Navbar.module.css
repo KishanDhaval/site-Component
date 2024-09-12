@@ -136,3 +136,23 @@ a {
     border-width: 0.2px;
     cursor: pointer;
 }
+
+
+
+.cart {
+    position: relative; /* Ensure the pseudo-element is positioned relative to the cart */
+  }
+  
+  .cart::after {
+    content: ''; /* Empty content to generate the dot */
+    position: absolute; /* Position it absolutely within the .cart element */
+    top: -3px; /* Adjust the top position as needed */
+    right: -8px; /* Adjust the right position as needed */
+    width: 10px; /* Width of the dot */
+    height: 10px; /* Height of the dot */
+    background-color: rgb(255, 0, 0); /* Color of the dot */
+    border-radius: 50%; /* Make it a circle */
+    border: 2px solid var(--background-color); /* Optional: Add a white border to make it stand out */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+  
